@@ -1,0 +1,17 @@
+@import "./base.css";
+@import "tailwindcss";
+@import "tailwindcss/preflight" layer(base);
+@import "tailwindcss/utilities" layer(utilities);
+
+body {
+  background: linear-gradient(90deg, #748a8f, #3a464b, #1c1f23);
+  font-family: "Ubuntu", monospace;
+  min-height: 100vh;
+  /* max-width: 100vw; */
+}
+span {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+@media screen and (min-width: 1024px) {
+}
