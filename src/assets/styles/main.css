@@ -4,15 +4,26 @@
 @import "tailwindcss/utilities" layer(utilities);
 
 #app {
+  min-width: 100vw;
   min-height: 100vh;
 }
 
 body {
   background: linear-gradient(90deg, #748a8f, #3a464b, #1c1f23);
   font-family: "Ubuntu", monospace;
+  min-width: 100vw;
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+}
+
+main {
+  scrollbar-width: none;
+}
+
+main::-webkit-scrollbar {
+  display: none;
 }
 
 /* @media screen and (min-width: 1024px) {} */
